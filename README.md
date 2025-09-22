@@ -84,6 +84,6 @@ My research interests include process modelling, environmental remediation, radi
 ## Contact
 - **Email:** rubelmiah.che@gmail.com  
 - **Phone:** +880 1791255974  
-- **LinkedIn:** [Md. Rubel Miah](https://www.linkedin.com)  
-- **ORCID:** [Md. Rubel Miah](https://orcid.org)  
-- **ResearchGate:** [Md. Rubel Miah](https://www.researchgate.net)
+- **LinkedIn:** [Md. Rubel Miah](https://www.linkedin.com/in/m-rubel/)  
+- **ORCID:** [Md. Rubel Miah](https://orcid.org/0009-0003-8937-8260)  
+- **ResearchGate:** [Md. Rubel Miah](https://www.researchgate.net/profile/Md-Miah-176)
