@@ -127,7 +127,7 @@ print(a**b)
 a=19
 b=4
 print(a//b)
-print(x:=3)
+print(p:=3)
 x = ["apple", "banana"]
 y = ["apple", "banana"]
 z = x
@@ -144,9 +144,11 @@ print(li)
 print(type(li))
 #list item replace
 li=["ruti","rice","egg","muri"]
+li[1]="water" #replace one
+print(li)
 print(type(li))
 print(li[0:3])
-li[1:2]=["pitha", "gur"]
+li[1:2]=["pitha", "gur"] #one replace and one add next to it
 print(li)
 li.append("patisapta") #add at the end
 print(li)
@@ -154,6 +156,8 @@ li.insert(2,"ilish") #add any index
 print(li)
 li=["a","e","i","o","u"]
 li_1=["w", "y"]
+li.extend(li_1)
+print(li)
 li.extend(["love"])
 print(li)
 li=["a","e","i","o","u"]
