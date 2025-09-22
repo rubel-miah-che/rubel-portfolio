@@ -1,3 +1,84 @@
+# =========================
+# Python / Jupyter
+# =========================
 __pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+env/
+venv/
+.venv/
 .ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Notebook checkpoints and outputs (keep notebooks but not outputs if you want)
+# Uncomment if you want to ignore all outputs
+# *.nbconvert.ipynb
+# .ipynb_checkpoints/
+
+# =========================
+# OS / Editor
+# =========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Data / Build / Logs
+# =========================
 data/
+*.csv
+*.xlsx
+*.xls
+*.log
+*.tmp
+*.bak
+
+# =========================
+# HYSYS / Simulation / binary files
+# =========================
+# HYSYS file extensions (prevent accidentally committing large binary)
+*.hsc
+*.hysys
+*.hst
+*.raw
+*.hstx
+*.fcstd  # (For other simulators like FlowCAD)
+# If you are uploading zipped HYSYS files, allow *.zip by removing the .zip rule or keep zipped only
+*.zip
+
+# =========================
+# Office / Large Binaries
+# =========================
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.exe
+*.dll
+
+# =========================
+# Packaging / python build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Misc
+# =========================
+*.pem
+*.key
+credentials.json
