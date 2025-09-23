@@ -1,0 +1,19 @@
+name: pinn-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+  - pytorch
+  - torchvision
+  - pip:
+      - deepxde
+      - rasterio
+      - geopandas
+      - xarray
