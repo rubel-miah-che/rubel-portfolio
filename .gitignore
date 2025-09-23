@@ -82,3 +82,12 @@ dist/
 *.pem
 *.key
 credentials.json
+
+# PINN additions
+# PINN / data ignore
+/data/
+/results/
+/*.new
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
