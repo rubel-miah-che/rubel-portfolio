@@ -174,9 +174,69 @@ a="rubel"
 li=["apple","egg","ilish","o","u"]
 for x in li:
     print(x)
+[print(x) for x in li] #short hand
 a1="rubel"
 i=0
 while i<len(a):
     print(a[i])
     i=i+1
-print("hello world")
+a1="rubel"
+i=0
+while i<5:
+    print(a[i])
+    i=i+1
+#List Comprehension
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+for x in fruits:
+    if "a" in x:
+        newlist.append(x)
+print(newlist)
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+new=[x for x in fruits if "a" in x]
+print(new)
+#tuples
+tup=("apple","egg","ilish","o","u")
+print(type(tup))
+print(tup)
+print(len(tup))
+thistuple = ("apple",)
+print(type(thistuple))
+
+#NOT a tuple
+thistuple="apple"
+print(type(thistuple))
+tup=("apple","egg","ilish","o","u")
+print(tup[1])
+print(tup[1:])
+if "u" in tup:
+    print("yes")
+else:
+    print("no")
+#replace of tuple item
+tup=("apple","egg","ilish","o","u")
+y=list(tup)
+y[1]="banana"
+print(y)
+tup=tuple(y)
+print(tup)
+#addition of tuple item
+fruits = ("apple", "banana", "cherry", "kiwi", "mango")
+y=list(fruits)
+y.insert(2,"love")
+fruits=tuple(y)
+print(fruits)
+fruits = ("apple", "banana", "cherry")
+(x,y,z)=fruits
+print(x)
+print(y)
+print(z)
+fruits = ("apple", "banana", "cherry")
+for x in fruits:
+    print(x)
+for i in range(len(fruits)):
+    print(fruits[i])
+i=0
+while i<len(fruits):
+    print(fruits[i])
+    i=i+1
