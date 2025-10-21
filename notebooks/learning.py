@@ -195,6 +195,29 @@ print(newlist)
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 new=[x for x in fruits if "a" in x]
 print(new)
+#Sorting
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort() #alphabetical order
+print(thislist)
+thislist = [100, 50, 65, 82, 23]
+thislist.sort() #small to greater
+print(thislist)
+thislist = [100, 50, 65, 82, 23]
+def f(n):
+    return n<80 #here the value satisfy the equation will sit last, which doesn't satisfy sit prior
+thislist.sort(key=f)
+print(thislist)
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.casefold) #Sort the list in a way that each word is first converted to lowercase, then arranged alphabetically.
+print(thislist)
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+for p in list2:
+    list1.append(p)
+print(list1)
 #tuples
 tup=("apple","egg","ilish","o","u")
 print(type(tup))
@@ -202,7 +225,6 @@ print(tup)
 print(len(tup))
 thistuple = ("apple",)
 print(type(thistuple))
-
 #NOT a tuple
 thistuple="apple"
 print(type(thistuple))
@@ -240,3 +262,60 @@ i=0
 while i<len(fruits):
     print(fruits[i])
     i=i+1
+fruits = ("a", "b", "c")
+[print(x) for x in fruits]
+#join tuples
+t1=("a", "b", "c")
+t2=(1, 2, 3)
+t=t1+t2
+print(t)
+t3=3*t2
+print(t3)
+x=t3.count(1)
+print(x)
+fruits = ("a", "b", "c")
+y=fruits.index("b")
+print(y)
+#sets
+thisset = {"apple", "banana", "cherry"} #To add one item to a set use the add() method.
+thisset.add("orange")
+print(thisset)
+thisset.remove("apple")
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+thisset.pop()
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+thisset.discard("banana")
+print(thisset)
+thisset = {"apple", "banana", "cherry"}
+[print(x) for x in thisset]
+thisset = {"apple", "banana", "cherry"}
+thislist=list(thisset)
+i=0
+while i<len(thislist):
+    print(thislist[i])
+    i=i+1
+x = frozenset({"apple", "banana", "cherry"})
+print(x)
+print(type(x))
+r=x.copy()
+print(r)
+print(type(r))
+a={1,2,3,4,5}
+b={1,2,3,8,9}
+print(a-b)
+c=a.difference(b)
+print(c)
+print(a&b)
+print(b.issubset(a))
+print(a<=b)
+print(a|b)
+print(a^b) #common elements will be eliminated
+
+a={1,2,3,4,8,9,11}
+b={3,4,5}
+print(a-b) #here new set is created
+print(a)
+a-=b # here old set is retained, but some elements are eliminated
+print(a)
